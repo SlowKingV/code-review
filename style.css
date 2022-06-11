@@ -1,0 +1,132 @@
+head {
+  background-color: blue;
+}
+
+body {
+  padding: 0;
+  background-color: rgb(207, 169, 250);
+}
+
+footer {
+  background-color: rgb(240, 198, 62);
+  align-content: center;
+  padding: 5%;
+  margin: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: start;
+  text-decoration: solid;
+  margin-left: 10%;
+}
+
+p {
+  font-size: large;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  padding-right: 15%;
+}
+
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+}
+
+.videonavbar {
+  text-align: center;
+  font-size: x-small;
+}
+
+.videonavbar a {
+  align-items: flex-start;
+}
+
+.icon {
+  align-items: baseline;
+  padding: 5%;
+}
+
+.navbar {
+  margin-left: 5%;
+  background-color: #333;
+  opacity: 0.7;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: rgb(228, 175, 41);
+  text-align: center;
+  padding: 14px;
+  font-size: 20px;
+}
+
+.sidenav a {
+  text-align: center;
+  padding: 3%;
+  text-decoration: none;
+  font-size: small;
+  color: #818181;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: rgb(247, 223, 89);
+  color: rgba(0, 0, 0, 0.575);
+}
+
+.navbar a.active {
+  background-color: #5370f3;
+  color: white;
+}
+
+.navbar .icon {
+  display: contents;
+}
+
+.sidenav {
+  text-align: center;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(17, 17, 17, 0.63);
+  overflow-x: hidden;
+  padding: 14px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-right: 160px;
+  padding: 10px 0;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav { padding-top: 15px; }
+  .sidenav a { font-size: 18px; }
+}
+
+#contact {
+  list-style-type: none;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 10px;
+}
+
+h4 {
+  text-align: start;
+  margin: 10%;
+  font-size: large;
+}
